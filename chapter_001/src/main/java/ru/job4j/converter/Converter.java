@@ -12,7 +12,6 @@ public class Converter {
      * @return Евро.
      */
     public int rubleToEuro(int value) {
-
         return value / 70;
     }
 
@@ -34,7 +33,6 @@ public class Converter {
      * @return Доллары
      */
     public int dollarToRuble(int value) {
-
         return value * 60;
     }
 
@@ -45,7 +43,6 @@ public class Converter {
      * @return Доллары
      */
     public int euroToRuble(int value) {
-
         return value * 70;
     }
 }
