@@ -17,7 +17,6 @@ public class ConverterTest {
         Converter converter = new Converter();
         int result = converter.rubleToDollar(120);
         assertThat(result, is(2));
-
     }
 
     @Test
