@@ -5,6 +5,7 @@ package ru.job4j.condition;
  * @version $Id$
  * @since 0.1
  */
+
 public class Point {
     private int x;
     private int y;
@@ -19,7 +20,7 @@ public class Point {
                 Math.pow(this.x - that.x, 2) + Math.pow(this.y - that.y, 2)
         );
     }
-
+    
     public static void main(String[] args) {
         Point a = new Point(5, 10);
         Point b = new Point(8, 15);
