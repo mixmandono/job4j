@@ -10,7 +10,7 @@ public class Max {
     }
 
     public int max(int first, int second, int third) {
-        return first < second? third : second;
+        return Math.max(first, max(second, third));
     }
     }
 
