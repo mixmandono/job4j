@@ -40,7 +40,7 @@ public class Triangle {
         double p = this.period(ab, ac, bc);
         if (this.exist(ab, ac, bc)) {
             // написать формулу для расчета площади треугольника.
-            rsl = Math.sqrt(p*(p-ab)*(p-ac)*(p-bc)); //вместо многоточия нужно написать формулу Герона с подставленными переменные ab, ac, dc, p.
+            rsl = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc)); //вместо многоточия нужно написать формулу Герона с подставленными переменные ab, ac, dc, p.
             // Для извлечение квадратного корня надо использовать метод Math.sqrt()
         }
         return rsl;
@@ -57,6 +57,6 @@ public class Triangle {
      * @return
      */
     private boolean exist(double ab, double ac, double bc) {
-        return ab<(ac+bc) && ac<(ab+bc) && bc<(ab+ac);
+        return ab < (ac + bc) && ac < (ab + bc) && bc < (ab + ac);
     }
 }
