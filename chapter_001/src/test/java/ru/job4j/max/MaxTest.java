@@ -5,7 +5,7 @@ import static org.junit.Assert.assertThat;
 import static sun.nio.cs.Surrogate.is;
 
 public class MaxTest {
-    
+
     @Test
     public void whenFirstLessSecond() {
         Max maxim = new Max();
@@ -22,5 +22,4 @@ public class MaxTest {
         int result = maxim.max(1, 2, 3);
         assertThat(result, is(3));
     }
-
 }
