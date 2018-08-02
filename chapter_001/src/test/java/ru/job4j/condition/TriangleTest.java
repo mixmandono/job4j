@@ -20,5 +20,6 @@ public class TriangleTest {
         double expected = 2D;
         //Проверяем результат и ожидаемое значение.
         assertThat(result, closeTo(expected, 0.1));
+
     }
 }
